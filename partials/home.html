@@ -1,0 +1,19 @@
+<div class="searchPage">
+
+  <form ng-submit="searchSubReddit(subreddit)">
+    <input type="text" placeholder="Enter SubReddit" ng-model="subreddit">
+    <button>Search</button>
+  </form>
+  <div class="popSubs">
+    <h4>Popular Subs</h4>
+    <ul>
+      <li ng-click="searchSubReddit('popular')"><a href="">popular</a></li>
+      <li ng-click="searchSubReddit('all')"><a href="">all</a></li>
+      <li ng-click="searchSubReddit('funny')"><a href="">funny</a></li>
+      <li ng-click="searchSubReddit('pics')"><a href="">pics</a></li>
+      <li ng-click="searchSubReddit('askreddit')"><a href="">askreddit</a></li>
+      <li ng-click="searchSubReddit('aww')"><a href="">aww</a></li>
+      <li ng-click="searchSubReddit('news')"><a href="">news</a></li>
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,17 @@
+
+<div class="iPost">
+  <div class="postTitle">
+    <a href="#!/reddit" ng-click="searchSubReddit(post.data.subreddit)">{{ post.data.subreddit_name_prefixed }}</a>
+  </div>
+  <div class="thumb">
+    <thumbnail-img><thumbnail-img>
+
+  </div>
+  <div class="content" style="min-height: {{ post.data.thumbnail_height }}px">
+    <h4> {{ post.data.title }} </h4>
+    <p> {{ post.data.author }} </p>
+  </div>
+  <div class="postFoot">
+    <span>Score: {{ post.data.score }}</span> | <a rel="external" target="_blank" href="http://www.reddit.com{{post.data.permalink}}"><span>Comments: {{ post.data.num_comments }}</span></a>
+  </div>
+</div>

@@ -1,0 +1,70 @@
+body {
+  background-color: lightgrey;
+}
+.header, .searchPage {
+  background-color: lightblue;
+  border: 1px solid grey;
+}
+.header {
+  width: 100%;
+}
+.title {
+  display: inline-block;
+  text-decoration: none;
+  margin: 2% 1%;
+}
+h2.title {
+  font-size: 36px;
+}
+.searchPage {
+  padding: 2%;
+  width: 60%;
+  margin: 5% auto;
+}
+input {
+  width: 80%;
+}
+button {
+  width: 18%
+}
+.posts {
+  width: 95%;
+  padding: 0 2%;
+}
+.thumb {
+  display: inline-block;
+  float: left;
+  margin-left: 2%;
+}
+.content {
+  display: inline-block;
+  max-width: 75%;
+  margin-left: 2%;
+}
+.iPost {
+  width: 90%;
+  margin: 2% auto;
+  background-color: white;
+  border: 1px solid grey;
+}
+.postTitle {
+  width: 96%;
+  padding: 1% 2%;
+  margin-bottom: 1%;
+  background-color: lightblue;
+}
+.subTitle {
+  text-align: center;
+}
+.postFoot {
+  width: 96%;
+  padding: .5% 2%;
+  margin-top: 1%;
+  background-color: lightblue;
+}
+img {
+  box-shadow: 5px 5px 3px lightgrey;
+}
+.content h4 {
+  margin: 0;
+}
