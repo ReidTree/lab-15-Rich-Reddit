@@ -4,9 +4,11 @@ app.factory('redditFactory', function($http) {
 
   var posts = [];
   var subtitle = [];
+  var popularSub = [{sub: 'all'}, {sub: 'popular'}, {sub: 'funny'}, {sub: 'pics'}, {sub: 'askreddit'}, {sub: 'aww'}, {sub: 'news'}];
 
   return {
     subHead: subHead,
+    popularSub: popularSub,
     setJSON: setJSON,
     getJSON: getJSON
   };
